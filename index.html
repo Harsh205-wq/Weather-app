@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" class="css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" </head>
+
+<body>
+  <main>
+    <form action="">
+      <input type="text" autocomplete="off" id="valueSearch">
+
+      <button><i class="fa-solid fa-magnifying-glass"></i></button>
+    </form>
+    <section class="result">
+      <figure class="name" id="city">
+        <figcaption>London</figcaption>
+        <img src="wp2278608.jpg" width="60px">
+      </figure>
+      <figure class="temperature" id="temperature">
+        <img src="weather.webp" width="70px" style="display: block; margin: 0 auto;">
+        <figcaption>
+          <span>31</span>
+          <sup>0</sup>
+        </figcaption>
+      </figure>
+      <p class="description">overcast</p>
+      <ul>
+        <li>
+          clouds
+          <i class="fa-solid fa-cloud-moon-rain"></i>
+          <span id="clouds">98</span>%
+        </li>
+        <li>
+          Humidty
+          <i class="fa-solid fa-temperature-full"></i>
+          <span id="humidity">55</span>%
+        </li>
+        <li>
+          Pressure
+          <i class="fa-solid fa-gauge"></i>
+          <span id="pressure">1001</span>pa
+        </li>
+      </ul>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
